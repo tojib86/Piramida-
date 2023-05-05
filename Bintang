@@ -1,0 +1,3 @@
+def buat_piramida_bintang(tinggi):
+    for i in range(1, tinggi+1):
+        print(" "*(tinggi-i) + "* "*(i))
